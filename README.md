@@ -1,5 +1,5 @@
 # Data Engineering with AWS Nanodegree
-This repository is for the projects I've done on the [Data Engineering with AWS Nanodegree](https://www.udacity.com/course/data-engineer-nanodegree--nd027).
+This repository is for the projects I've done on the [Udacity Data Engineering with AWS Nanodegree](https://www.udacity.com/course/data-engineer-nanodegree--nd027).
 
 ## Project overview
 ### 1 - Data Modeling with Apache Cassandra
