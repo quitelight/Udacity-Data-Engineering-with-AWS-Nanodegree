@@ -4,7 +4,8 @@ This repository is for the projects I've done on the [Data Engineering with AWS 
 ## Project overview
 ### 1 - Data Modeling with Apache Cassandra
 Development of an ETL pipeline to pull event data files from a remote source (such as S3), merging the data files as a single CSV and loading 
-to a Apache Cassandra NoSQL database.<br>
+to a Apache Cassandra NoSQL database. The [following Stackoverflow page](https://stackoverflow.com/questions/41247345/python-read-cassandra-data-into-pandas) was beneficial in learning about how to read Cassandra data into a Pandas dataframe.
+<br>
 <b>Project overview:</b><br>
 A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. The analysis 
 team is particularly interested in understanding what songs users are listening to. Currently, there is no easy way to query the data to generate the 
@@ -15,3 +16,4 @@ you on the project. Your role is to create a database for this analysis. You'll 
 analytics team from Sparkify to create the results.<br>
 <b>Skills used:</b><br>
 Cassandra Query Language (CQL), Python/Pandas, Jupyter
+
