@@ -22,7 +22,6 @@ def main():
     config.read('dwh.cfg')
 
     conn = psycopg2.connect("host={} dbname={} user={} password={} port={}".format(*config['CLUSTER'].values()))
-    #conn = psycopg2.connect("host={} user='dwhuser' password='Passw0rd' port='5439'".format(*config['CLUSTER'].values()))
     cur = conn.cursor()
     print("Connecting to database: {}\n".format(conn))
 
