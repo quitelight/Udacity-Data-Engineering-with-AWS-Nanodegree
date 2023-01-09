@@ -31,7 +31,7 @@ staging_events_table_create = ("""
     CREATE TABLE IF NOT EXISTS staging_events (
         artist             VARCHAR(255),
         auth               VARCHAR(20),
-        firstName           VARCHAR(50),
+        firstName          VARCHAR(50),
         gender             VARCHAR(1),
         itemInSession      SMALLINT,
         lastName           VARCHAR(50),
@@ -84,7 +84,7 @@ songplay_table_create = ("""
 user_table_create = ("""
     CREATE TABLE IF NOT EXISTS dim_users (
         user_id         INT PRIMARY KEY,
-        first_name       VARCHAR(50),
+        first_name      VARCHAR(50),
         last_name       VARCHAR(50),
         gender          VARCHAR(1),
         level           VARCHAR(5)                  
