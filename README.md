@@ -17,3 +17,8 @@ analytics team from Sparkify to create the results.<br>
 <b>Skills used:</b><br>
 Cassandra Query Language (CQL), Python/Pandas, Jupyter
 
+### 2 - Data warehouse with AWS
+For this project, a music streaming startup, Sparkify, has grown their user base and song database and want to move their processes and data onto the cloud. Their data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
+
+To help Sparkify, I built an ETL pipeline that extracts their data from **S3**, stages them in **Redshift**, and transforms data into a set of **dimensional tables in Star Schema** for their analytics team to continue finding insights into what songs their users are listening to.
+
