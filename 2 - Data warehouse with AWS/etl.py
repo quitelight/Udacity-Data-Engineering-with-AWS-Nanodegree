@@ -51,7 +51,8 @@ def main():
     """
         Reads the variables within the dwh.cfg file and uses it to connect to the Postgresql database.
         A cursor is created that encapsulates the entire SQL query to process each individual row at a time.
-        Hence, for the run_sample_queries() function we've set up a while loop to iterate over each row and fetch it.
+        Hence, for the run_sample_queries() function we've set up a while loop to iterate over each result set
+        row and fetch it.
 
         Finally, we close the connection and the cursor.
     """

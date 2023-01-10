@@ -28,7 +28,8 @@ def create_tables(cur, conn):
 def main():
     """
         Reads the variables within the dwh.cfg file and uses it to connect to the Postgresql database.
-        A cursor is created that encapsulates the entire SQL query to process each individual row at a time.
+        A cursor is created that encapsulates the entire SQL query to process each individual row from the result
+        set at a time.
 
         Finally, we close the connection and the cursor.
     """
