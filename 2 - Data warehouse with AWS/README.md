@@ -87,7 +87,7 @@ Running the `etl.py` script<br>
 ![image](https://user-images.githubusercontent.com/8476589/211447615-371a66c6-225b-4cb4-8f13-98505c6df9f2.png)<br>
 
 ## References
-The following pages have been helpful in the development of this project. I've included these here future reference.<br>
+The following pages have been helpful in the development of this project. I've included these here for future reference.<br>
 * [AWS EXTRACT function](https://docs.aws.amazon.com/redshift/latest/dg/r_EXTRACT_function.html)<br>
 * [AWS DATE_PART function](https://docs.aws.amazon.com/redshift/latest/dg/r_DATE_PART_function.html)<br>
 * [AWS Date parts for date or timestamp functions](https://docs.aws.amazon.com/redshift/latest/dg/r_Dateparts_for_datetime_functions.html)<br>
