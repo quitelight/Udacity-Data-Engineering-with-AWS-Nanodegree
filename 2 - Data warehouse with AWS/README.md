@@ -86,6 +86,16 @@ Running `create_tables.py` script<br>
 Running the `etl.py` script<br>
 ![image](https://user-images.githubusercontent.com/8476589/211447615-371a66c6-225b-4cb4-8f13-98505c6df9f2.png)<br>
 
+## References
+The following pages have been helpful in the development of this project. I've included these here future reference.<br>
+* [AWS EXTRACT function](https://docs.aws.amazon.com/redshift/latest/dg/r_EXTRACT_function.html)<br>
+* [AWS DATE_PART function](https://docs.aws.amazon.com/redshift/latest/dg/r_DATE_PART_function.html)<br>
+* [AWS Date parts for date or timestamp functions](https://docs.aws.amazon.com/redshift/latest/dg/r_Dateparts_for_datetime_functions.html)<br>
+* [Stackoverflow - How to convert epoch to datetime redshift?](https://stackoverflow.com/questions/39815425/how-to-convert-epoch-to-datetime-redshift)<br>
+* [Stackoverflow - Storing sex (gender) in database](https://stackoverflow.com/questions/4175878/storing-sex-gender-in-database)<br>
+* [Stackoverflow - Star-schema naming conventions](https://stackoverflow.com/questions/1716220/star-schema-naming-conventions)<br>
+* [Stackoverflow - What datatype to use when storing latitude and longitude data in SQL databases?](https://stackoverflow.com/questions/1196415/what-datatype-to-use-when-storing-latitude-and-longitude-data-in-sql-databases)<br>
+* [Stackoverflow page for resolving the error ImportError: No module named 'psycopg2._psycopg'](https://stackoverflow.com/questions/36103034/importerror-no-module-named-psycopg2-psycopg)
 
 
 
