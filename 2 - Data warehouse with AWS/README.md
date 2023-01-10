@@ -68,7 +68,7 @@ A star schema was developed for performing optimized queries on song play analys
 ## Instructions on running the project
 1 - Open AWS IAM (Identity Access Management) and create a new IAM user. In the AWS access type section make sure you choose both `Programmatic access` and `AWS Management Console access`<br>
 2 - Give the user the following permissions from the `Attach existing policies directly` list: `AdministratorAccess`, `AmazonRedshiftFullAccess`, `AmazonRedshiftReadOnlyAccess`, `AmazonS3ReadOnlyAccess`, `AmazonRedshiftQueryEditor`, `AmazonRedshiftQueryEditorV2FullAccess`<br>
-3 - Create a IAM role granting access to relevant AWS S3 and Redshift permissions
+3 - Create a IAM role granting access to relevant AWS S3 and Redshift permissions<br>
 4 - Take note of the access key and secret and edit the `dwh.cfg` accordingly to include the required info<br>
 5 - Run the `create_redshift_cluster.py` script to create the Redshift cluster<br>
 6 - Run the `create_tables.py` script to create the staging and dimensional tables in the cluster<br>
