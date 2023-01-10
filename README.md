@@ -22,5 +22,5 @@ For this project, a music streaming startup, Sparkify, has grown their user base
 
 To help Sparkify, I built an ETL pipeline that extracts their data from **S3**, stages them in **Redshift**, and transforms data into a set of **dimensional tables in Star Schema** for their analytics team to continue finding insights into what songs their users are listening to.<br>
 <b>Skills used:</b><br>
-SQL, Python, AWS Redshift
+SQL, Python, AWS Redshift, Data modeling
 
