@@ -45,9 +45,18 @@ STEDI has three JSON data sources to use from the Step Trainer:
 **Glue Job Scripts**:
 - customer_landing_to_trusted.py
 - accelerometer_landing_to_trusted.py
+- step_trainer_landing_to_trusted.py
+  
+![image](https://github.com/quitelight/Udacity-Data-Engineering-with-AWS-Nanodegree/assets/139787492/26134dda-8fe4-488d-9a85-7089750d0a28)
+![image](https://github.com/quitelight/Udacity-Data-Engineering-with-AWS-Nanodegree/assets/139787492/47447877-1730-4aa7-b919-1e105afbd1c0)
+![image](https://github.com/quitelight/Udacity-Data-Engineering-with-AWS-Nanodegree/assets/139787492/f6d6cc22-08fd-4e22-9e71-10f44c60ef0d)
 
 ### Curated Zone
 
 **Glue Job Scripts**:
 - customer_trusted_to_curated.py
 - machine_learning_curated.py
+  
+![image](https://github.com/quitelight/Udacity-Data-Engineering-with-AWS-Nanodegree/assets/139787492/8d53312a-61a3-47d0-a693-6b3f3235c0c6)
+![image](https://github.com/quitelight/Udacity-Data-Engineering-with-AWS-Nanodegree/assets/139787492/09cd142c-c499-4073-8c07-b22996b617b6)
+
