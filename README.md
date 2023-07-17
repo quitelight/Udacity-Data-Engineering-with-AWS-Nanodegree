@@ -25,7 +25,7 @@ To help Sparkify, I built an ETL pipeline that extracts their data from **S3**, 
 SQL, Python, AWS Redshift, Data modeling
 
 ### 3 - [STEDI Human Balance Analytics](https://github.com/quitelight/Udacity-Data-Engineering-with-AWS-Nanodegree/tree/main/3%20-%20STEDI%20Human%20Balance%20Analytics)
-Spark and AWS Glue allow you to process data from multiple sources, categorize the data, and curate it to be queried in the future for multiple purposes. As a data engineer on the STEDI Step Trainer team, you'll need to extract the data produced by the STEDI Step Trainer sensors and the mobile app, and curate them into a data lakehouse solution on AWS so that Data Scientists can train the learning model.
+Spark and AWS Glue allow you to process data from multiple sources, categorize the data, and curate it to be queried in the future for multiple purposes. As a data engineer on the STEDI Step Trainer team, you'll need to extract the data produced by the STEDI Step Trainer sensors and the mobile app, and curate them into a data lakehouse solution on AWS so that Data Scientists can train the learning model.<br>
 <b>Skills used:</b><br>
 Python, SQL, AWS Glue, AWS Athena
 
