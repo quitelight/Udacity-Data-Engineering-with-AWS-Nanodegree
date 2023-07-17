@@ -2,7 +2,7 @@
 This repository is for the projects I've done on the [Udacity Data Engineering with AWS Nanodegree](https://www.udacity.com/course/data-engineer-nanodegree--nd027).
 
 ## Project overview
-### 1 - [Data Modeling with Apache Cassandra](https://github.com/knadoor/Udacity-Data-Engineering-with-AWS-Nanodegree/tree/main/1%20-%20Data%20Modeling%20with%20Apache%20Cassandra)
+### 1 - [Data Modeling with Apache Cassandra](https://github.com/quitelight/Udacity-Data-Engineering-with-AWS-Nanodegree/tree/main/1%20-%20Data%20Modeling%20with%20Apache%20Cassandra)
 Development of an ETL pipeline to pull event data files from a remote source (such as S3), merging the data files as a single CSV and loading 
 to a Apache Cassandra NoSQL database. The [following Stackoverflow page](https://stackoverflow.com/questions/41247345/python-read-cassandra-data-into-pandas) was beneficial in learning about how to read Cassandra data into a Pandas dataframe.
 <br>
@@ -17,14 +17,14 @@ analytics team from Sparkify to create the results.<br>
 <b>Skills used:</b><br>
 Cassandra Query Language (CQL), Python/Pandas, Jupyter
 
-### 2 - [Data warehouse with AWS](https://github.com/knadoor/Udacity-Data-Engineering-with-AWS-Nanodegree/tree/main/2%20-%20Data%20warehouse%20with%20AWS)
+### 2 - [Data warehouse with AWS](https://github.com/quitelight/Udacity-Data-Engineering-with-AWS-Nanodegree/tree/main/2%20-%20Data%20warehouse%20with%20AWS)
 For this project, a music streaming startup, Sparkify, has grown their user base and song database and want to move their processes and data onto the cloud. Their data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
 
 To help Sparkify, I built an ETL pipeline that extracts their data from **S3**, stages them in **Redshift**, and transforms data into a set of **dimensional tables in Star Schema** for their analytics team to continue finding insights into what songs their users are listening to.<br>
 <b>Skills used:</b><br>
 SQL, Python, AWS Redshift, Data modeling
 
-### 3 - STEDI Human Balance Analytics
+### 3 - [STEDI Human Balance Analytics](https://github.com/quitelight/Udacity-Data-Engineering-with-AWS-Nanodegree/tree/main/3%20-%20STEDI%20Human%20Balance%20Analytics)
 Spark and AWS Glue allow you to process data from multiple sources, categorize the data, and curate it to be queried in the future for multiple purposes. As a data engineer on the STEDI Step Trainer team, you'll need to extract the data produced by the STEDI Step Trainer sensors and the mobile app, and curate them into a data lakehouse solution on AWS so that Data Scientists can train the learning model.
 <b>Skills used:</b><br>
 Python, SQL, AWS Glue, AWS Athena
